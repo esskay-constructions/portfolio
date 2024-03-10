@@ -1,0 +1,104 @@
+body {
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    background-color: rgb(6, 35, 82);
+    height: 100px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-decoration: none;
+    font-size: medium;
+    position: relative;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    width: 100%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    justify-content: space-evenly;
+}
+
+.responsive-image {
+    max-width: 60%;
+    height: auto; 
+    display: block; 
+    margin: 0 auto;
+}
+
+.item {
+    margin-top: auto;
+}
+
+.footer {
+    display: flex;
+    background-color: rgb(6, 35, 82);
+    padding: 16px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.item {
+    text-decoration: none;
+    padding: 5px;
+}
+
+@media (max-width: 600px) {
+    .item {
+        flex: 100%; 
+    }
+}
+
+.container {
+    position: relative;
+    display: inline-block;
+  }
+  
+.blue-box {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px; 
+    background-color: rgb(6, 35, 82);
+}
+  
+#about-us {
+    text-align: center;
+}
+
+#promoters {
+    text-align: left;
+}
+
+.centered {
+    text-align: center;
+}
+
+.blue-line {
+    width: 100%;
+    height: 2px; /* Adjust thickness as needed */
+    background-color: rgb(6, 35, 82);
+}
+
+.small-space {
+    margin-right: 5px; /* Adjust as needed */
+    height: 20px;
+}
+  
